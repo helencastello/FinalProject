@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_image"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/blur_image_job_list">
+
+
+            <ImageView
+                android:id="@+id/iv_animator_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/animator_view"
+                />
+
+            <ImageView
+                android:id="@+id/iv_architect_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/archictec_view"
+                />
+
+            <ImageView
+                android:id="@+id/iv_civil_engineer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/civi_enginer_view"
+                />
+            <ImageView
+                android:id="@+id/iv_grapic_designer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grapic_designer_view"
+                />
+
+            <ImageView
+                android:id="@+id/iv_photographer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/photographer_view"
+                />
+
+            <ImageView
+                android:id="@+id/iv_ux_designer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ux_designer_view"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
